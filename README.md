@@ -1,33 +1,23 @@
-# Gerenciador de Atividades desenvolvido na linguagem python.
-Este projeto é um sistema simples de gerenciamento de atividades com foco em usabilidade e segurança. O objetivo principal é permitir que os usuários cadastrem e gerenciem suas atividades de maneira eficiente, com funcionalidades como criação de contas, autenticação, adição de atividades, e visualização em cronograma.
+# Cronograma de Estudos Desenvolvido com a Linguagem Python
+Este é um sistema de gerenciamento de cronograma de estudos, onde os usuários podem se cadastrar, fazer login, criar e visualizar suas atividades de estudo, bem como filtrar atividades por prioridade, prazo ou título.
 
-Funcionalidades
-Cadastro de Usuários:
+# Funcionalidades
+Cadastro de Usuário: Permite que novos usuários se cadastrem informando nome, e-mail e senha.
+Login de Usuário: Permite que usuários registrados façam login usando seu e-mail e senha.
+Cadastro de Atividades: Os usuários podem criar atividades de estudo, especificando título, descrição, data de início, prazo, horários e prioridade.
+Visualização de Cronograma: Exibe as atividades cadastradas em formato de tabela.
+Filtragem de Atividades: Permite filtrar as atividades por:
+Prioridade
+Prazo
+Título
+Persistência de Dados: Utiliza banco de dados SQLite para armazenar as informações do usuário e do cronograma.
+# Tecnologias Utilizadas
+Python: Linguagem de programação principal do projeto.
+SQLite3: Banco de dados para armazenar informações dos usuários e suas atividades.
+Tabulate: Biblioteca para formatação e exibição de tabelas no terminal.
+Datetime: Manipulação de datas e horários.
+# Requisitos
+Python 3.x
+Biblioteca tabulate: Pode ser instalada com o comando:
+pip install tabulate
 
-Criação de contas com nome e senha.
-Armazenamento seguro de dados.
-Login para acessar a conta.
-Cadastro e Gerenciamento de Atividades:
-
-Adicionar, editar e excluir atividades.
-Cada atividade possui título, descrição, data de início, prazo, horário e prioridade.
-Validação de Prazos e Horários:
-
-Validação para garantir que a data de início seja anterior ao prazo de conclusão.
-Visualização em Cronograma:
-
-Interface para visualizar atividades em um cronograma (diário, semanal ou mensal).
-Classificação e Filtro por Prioridade:
-
-Permite ao usuário visualizar atividades com base no nível de prioridade.
-Requisitos Funcionais
-Cadastro de Usuário: Sistema para cadastro e login de usuários.
-Gerenciamento de Atividades: Função para adicionar, editar e excluir atividades.
-Validação de Prazos e Horários: Garantia de que os prazos não sejam conflitantes.
-Visualização de Atividades: Exibição de atividades organizadas por data e horário.
-Prioridade: Filtro para mostrar atividades com maior prioridade.
-Requisitos Não Funcionais
-Usabilidade: Interface simples e intuitiva.
-Segurança: Senhas armazenadas de forma segura (uso de hash).
-Persistência de Dados: Armazenamento de dados usando SQLite ou arquivos de texto.
-Backup de Dados: Função para backup de dados para garantir a recuperação.
