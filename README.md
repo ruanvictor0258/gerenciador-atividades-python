@@ -2,8 +2,8 @@
 Este é um sistema de gerenciamento de cronograma de estudos, onde os usuários podem se cadastrar, fazer login, criar e visualizar suas atividades de estudo, bem como filtrar atividades por prioridade, prazo ou título.
 
 # Funcionalidades
-Cadastro de Usuário: Permite que novos usuários se cadastrem informando nome, e-mail e senha.
-Login de Usuário: Permite que usuários registrados façam login usando seu e-mail e senha.
+ # Cadastro de Usuário: Permite que novos usuários se cadastrem informando nome, e-mail e senha.
+ # Login de Usuário: Permite que usuários registrados façam login usando seu e-mail e senha.
 Cadastro de Atividades: Os usuários podem criar atividades de estudo, especificando título, descrição, data de início, prazo, horários e prioridade.
 Visualização de Cronograma: Exibe as atividades cadastradas em formato de tabela.
 Filtragem de Atividades: Permite filtrar as atividades por:
